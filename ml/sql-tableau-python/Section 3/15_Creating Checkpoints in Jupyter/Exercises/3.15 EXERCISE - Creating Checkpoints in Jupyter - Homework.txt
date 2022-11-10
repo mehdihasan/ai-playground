@@ -1,0 +1,3 @@
+Exercise:
+
+Create a checkpoint of your work on the exercises, storing the current output in a variable called df_checkpoint.

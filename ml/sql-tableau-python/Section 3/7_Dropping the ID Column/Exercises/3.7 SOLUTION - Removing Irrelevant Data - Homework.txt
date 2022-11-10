@@ -1,0 +1,5 @@
+Solution:
+
+df_no_age = df.drop(['Age'], axis = 1)
+
+df_no_age

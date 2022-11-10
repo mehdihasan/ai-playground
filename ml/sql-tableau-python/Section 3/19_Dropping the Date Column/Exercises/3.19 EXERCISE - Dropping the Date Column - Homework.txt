@@ -1,0 +1,14 @@
+Exercise #1:
+
+Do the same thing with the ‘Date’ column – drop it from the df_reason_mod DataFrame.
+
+Exercise #2:
+
+Re-order the columns in df_reason_mod so that “Month Value” and “Day of the Week” appear exactly where “Date” used to be. That is, between “Reason_4” and “Transportation Expense”.
+
+We are done with working on the ‘Date’ column. So, it is a clever moment to stop to create a checkpoint.
+
+Exercise #3:
+
+Create another checkpoint, calling the new variable df_reason_date_mod.
+

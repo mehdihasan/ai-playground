@@ -1,0 +1,3 @@
+Exercise:
+
+Concatenate the df_no_age and age_dummies objects you previously obtained. Store the result in a new object called df_concatenated.

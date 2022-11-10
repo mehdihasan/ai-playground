@@ -1,0 +1,17 @@
+Exercise:
+
+Create a new notebook file where you will need to solve the exercises we provide throughout this business case study.
+
+Then, drop the ‘Age’ column from df and assign the newly obtained data set to a new variable, called df_no_age.
+
+Note: The exercises aim at solidifying your programming skills. They are less directed towards applying business or economic intuition, which is something we have exclusively left for the video lectures.
+
+Start your notebook by running the following code:
+
+import pandas as pd
+raw_csv_data = pd.read_csv("D:/Test/Absenteeism_data.csv")
+df = raw_csv_data.copy()
+df = df.drop(['ID'], axis = 1)
+df
+
+Then, as solutions to these exercises, we will only provide the code you need to run afterwards.

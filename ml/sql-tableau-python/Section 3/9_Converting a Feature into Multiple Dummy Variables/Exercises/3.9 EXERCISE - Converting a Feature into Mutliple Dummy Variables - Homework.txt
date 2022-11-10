@@ -1,0 +1,3 @@
+Exercise:
+
+Split the ‘Age’ column into multiple dummies. Store the output in a new variable, called age_dummies.

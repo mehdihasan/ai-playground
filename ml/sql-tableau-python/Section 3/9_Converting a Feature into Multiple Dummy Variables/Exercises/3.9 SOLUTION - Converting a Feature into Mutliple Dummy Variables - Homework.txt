@@ -1,0 +1,5 @@
+Solution:
+
+age_dummies = pd.get_dummies(df['Age'])
+
+age_dummies

@@ -1,0 +1,5 @@
+Solution:
+
+df_checkpoint = df_concatenated.copy()
+
+df_checkpoint

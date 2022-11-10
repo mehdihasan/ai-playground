@@ -1,0 +1,4 @@
+Solution:
+
+df_concatenated = pd.concat([df_no_age, age_dummies], axis=1)
+df_concatenated

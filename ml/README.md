@@ -57,7 +57,7 @@ Deep learning is not a kind of problem but a way to solve ML problems. It can be
     | Classification | Accuracy            | accuracy = (TP + TN) / (TP + FP + FN + TN)                                                          |
     |                | Precision           | P = Real Positive / (TP + FP). Answers how many right identifications made. Near to 100% - less FP  |
     |                | Recall              | R = TP / (Real Positive + FN). Quantify how many we have failed to identify. Near to 100% - less FN |
-    |                | F1 Score            | Harmonic Mean of Precision and Recall                                                               |
+    |                | F1 Score            | Harmonic Mean of Precision and Recall. Fix unbalanced training sets.                                                                |
     |                | Specificity         | the bigegr the better.                                                                              |
     |                | ROC Curve           | how better the model is to differiencite to different classes                                       |
 - Operationalizing ML Models
@@ -112,11 +112,15 @@ ML ppelines are more `cyclic` than liner (dataflow).
   - Invalid Data
   - Inconsistent use of codes and categories
   - Data that is representative of the population at large
-- Unbalanced training sets
+- Unbalanced training sets: F1 Score used to fix.
 - Bias in training data
-  - Automation bias
-  - Reporting bias
-  - Group attribution bias
+  - Automation bias: occurs as a commission error in which humans do not detect an incorrect decision made by a machine.
+  - Reporting bias: when a dataset does not accurately reflect the state of the world. Additional data should be collected until the distribution of data in a dataset reflects the
+distribution in the population as a whole.
+  - Selection bias: human error - process of choosing instances to include in ways that do not mirror the population.
+  - Group attribution bias: generalizes a characteristic of an individual to a group as a whole.
+  - In-group bias: occurs when someone favors a group to which they belong.
+  - Out-group bias: occurs when invalid assumptions are made about a group of which the person is not a member.
 
 ## Questions
 

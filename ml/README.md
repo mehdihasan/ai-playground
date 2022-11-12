@@ -82,7 +82,7 @@ Deep learning is not a kind of problem but a way to solve ML problems. It can be
    2. Validation Data
    3. Test Data
 4. Model Training: fitting a model to the data.
-   1. Feature Selection: process of evaluating how a particular attribute or feature contributes to the predictiveness of a model.
+   1. Feature Selection: process of evaluating how a particular attribute or feature contributes to the predictiveness of a model. PCA - Principle Component Analysis.
    2. Underfitting, Overfitting, and Regularization
 5. Model Evulation
    1. Individual evaluation metrics: Accuracy, Precision, Recall, F1 Score

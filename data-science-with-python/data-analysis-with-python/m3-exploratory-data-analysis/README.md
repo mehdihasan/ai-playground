@@ -1,3 +1,6 @@
+# Exploratory Data Analysis: Summarizing the Data Frame
+
+- [Exploratory Data Analysis: Summarizing the Data Frame](#exploratory-data-analysis-summarizing-the-data-frame)
 - [EDA - Exploratory Data Analysis](#eda---exploratory-data-analysis)
   - [Learning Objectives](#learning-objectives)
   - [Descriptive Statistics](#descriptive-statistics)

@@ -26,20 +26,22 @@ print(df.describe)
 ##
 ## Returns statistical summary
 ##
+## It returns the number of terms in the column as
+## "count", average column value as "mean",
+## column standard deviation as "std", the maximum and minimum values,
+## as well as the boundary of each of the quartiles.
+## By default, the dataframe.describe() function skips rows and columns that do not contain numbers.
 
-# print(df.describe())
+print(df.describe())
 
 ##
 ## Returns full statistical summary
 ##
-
 ## Unique > The number of distinct objects in the column
-
 ## Top > Most frequent occuring object
-
 ## Freq > The number of times top objects appear in the column
 
-print(df.describe(include="all"))
+# print(df.describe(include="all"))
 
 ##
 ## Provides a concise summary of the dataframe based on: top and bottom 30 rows of dataframe

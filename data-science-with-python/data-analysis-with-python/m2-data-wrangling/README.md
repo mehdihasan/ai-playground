@@ -1,7 +1,8 @@
-# Data Wrangling
+# Data Wrangling: Cleaning and Preparing the Data
+
 Data Wrangling is the process of converting data from the initial format to a format that may be better for analysis.
 
-- [Data Wrangling](#data-wrangling)
+- [Data Wrangling: Cleaning and Preparing the Data](#data-wrangling-cleaning-and-preparing-the-data)
   - [Learning Objective](#learning-objective)
   - [Terms](#terms)
   - [Identify and handle missing values](#identify-and-handle-missing-values)

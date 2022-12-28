@@ -41,7 +41,7 @@ will learn how to:
 
 - __Data acquisition__ is a process of loading and reading data into notebook from various sources.
 
-## Actions performed at this step
+## Actions performed on this step
 
 1. [Loading data](./basics-1-importing-and-exporting-data.py)
 2. [Understand data before begin any analysis. Gain basic insights from the data.](./basics-2-understanding-data.py)
